@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Share Tech Mono', monospace;
+    padding: 0 8%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Press Start 2P', cursive;
+} 
+p{
+    padding-bottom: 15px;
+}  
+
+.myTitle{
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.myH1{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.myLogo{
+    height: 90px;
+    width: auto;
+
+}
+
+/*Main del index*/
+
+.textoIntro{
+    padding-top: 60px;
+}
+
+.secMap{
+    border: 15px solid black;
+    margin-top: 60px;
+    background: url(./img/img1.jpg) no-repeat center center;
+    height: 751px;
+
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas:
+                        ". . link1 link1 link1 . . . link3 link3 link3 ."
+                        ". link2 link1 link1 link1 . . . link3 link3 link3 ."
+                        ". link2 . . . . . . . . . ."
+                        ". . . . .             link4 link4         . . . . ."
+                        ". link5 link5 link5 . link4 link4 . . . . ."
+                        ". . . . . . . .                     link6 link6 link6 ."
+}
+
+.myLink{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+.myLink:hover{
+    opacity: 1;
+    color: white;
+    text-shadow: 1px 1px 2px green, 0 0 1em black, 0 0 0.2em black;
+}
+
+.link1{
+    grid-area:link1;
+
+}
+.link2{
+    grid-area:link2;
+
+}
+.link3{
+    grid-area:link3;
+
+}
+.link4{
+    grid-area:link4;
+
+}
+.link5{
+    grid-area:link5;
+
+
+}
+.link6{
+    grid-area:link6;
+
+}
+
+/*Footer*/
+.myFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+    padding: 30px 0 ;
+    border-top: 5px solid black;
+}
+.imgFoot{
+    width: 130px;
+    padding-bottom: 30px;
+}
+
+/*Sección Audiovisual*/
+
+.sectionAv{
+    background: url(./img/img3.png) no-repeat center center;
+    height: 357px;
+    width: auto;
+
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+    grid-template-rows: repeat(14,1fr);
+    grid-template-areas:
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . .  . . . .  . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . peliculas. .   . . . ."
+                       ". . . . . series . . . . . . . ."
+                       ". . . . . . . .  . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+    ;
+}
+
+.pokeIcon{
+    width: 18px;
+    filter: drop-shadow(2px 3px 3px black);
+}
+.pokeIcon:hover{
+    width: 23px;
+}
+
+
+.series{
+    grid-area: series;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.peliculas{
+    grid-area: peliculas;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.volver{
+    color: black;
+    text-decoration: none;
+}
+/*Sección Literaria*/
+.sectionLib{
+    background: url(./img/img2.png) no-repeat center center;
+    height: 380px;
+    width: auto;
+
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-template-areas:
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . .  . . fantasia . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . .  .  . .  policiales . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . ."
+    ;
+}
+.fantasia{
+    grid-area: fantasia;
+}
+.policiales{
+    grid-area: policiales;
+}
+
+/*Sección Conocimientos*/
+.sectionCon{
+    background: url(./img/img5.png) no-repeat center center;
+    height: 640px;
+    width: auto;
+
+    display: grid;
+    grid-template-columns: repeat(17,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas:
+                       ". . . . . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . . . . ."
+                       ". . . . . . . . . . myHtml myCss myJs . . . ."
+                       ". . . . . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . . . . ."
+                       ". . . . . . . . . . . . . . . . ."
+
+    ;
+}
+.myHtml{
+    grid-area: myHtml;
+}
+.myCss{
+    grid-area: myCss;
+}
+.myJs{
+    grid-area: myJs;
+}
+
+.pokeIcon2{
+    width: 25px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+.pokeIcon2:hover{
+    width: 30px;
+}
+
+
+/*Secciones*/
+
+.seccion{
+    text-align: center;
+    padding: 60px;
+}
+.myCover{
+    width: 400px;
+    height: auto;
+}
+.myFicha{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 5px solid red;
+    outline: 10px solid black;
+    border-radius: 30px;
+    background: url(./img/ficha.jpg);
+    background-size: 450%;
+    margin-bottom: 60px;
+}
+.myDatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.titBox{
+    border: 5px solid black;
+    border-radius: 30px;
+    background-color: red;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.titulo{
+    padding: 10px;
+    color: white;
+}
+.myTitulo{
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+.myGeneros{
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.cify{
+    background-color: rgb(0, 130, 206);
+}
+.aventura{
+    background-color: rgba(0, 173, 150, 0.753);
+}
+.accion{
+    background-color: tomato;
+}
+.super{
+    background-color: rgb(232, 243, 72);
+}
+.anime{
+    background-color: rgb(248, 196, 73);
+}
+.deportes{
+    background-color: rgb(0, 255, 128);
+}
+.comedia{
+    background-color: rgb(245, 119, 224);
+}
+.documental{
+    background-color: rgb(0, 225, 255);
+}
+.myDuracion{
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.textoOpinion{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.opinion{
+    text-align: center;
+    padding: 30px;
+}
