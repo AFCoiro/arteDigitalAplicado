@@ -2,7 +2,7 @@
 
 # 📝 Descripción del proyecto: 
 
-<p>Este sitio está pensado con el formato de jardín digital, inspirándome en el diseño de los juegos de Pokémon de Game Boy para su diseño. El proyecto forma parte de la consigna principal para la entrega de la materia Arte Digital Aplicado (UNQ). </p>
+<p>Este sitio está pensado con el formato de jardín digital para desktop, inspirándome en el diseño de los juegos de Pokémon de Game Boy para su diseño. El proyecto forma parte de la consigna principal para la entrega de la materia Arte Digital Aplicado (UNQ).  </p>
 
 <br>
   
