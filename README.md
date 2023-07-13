@@ -9,7 +9,7 @@
 # 🛠️ Tecnologías utilizadas
 
 <ul> 
-<li>Html</li>
+<li>html</li>
 <li>css</li>
 </ul>
 
