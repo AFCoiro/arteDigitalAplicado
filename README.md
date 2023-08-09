@@ -1,4 +1,7 @@
-<h1 align="center">tal-Mi Jardin Digi</h1>
+<h1 align="center"> <img  src="https://github.com/AFCoiro/arteDigitalAplicado/assets/95722600/2d4cca18-33de-4364-bf79-60ca7b51edb6"></h1>
+
+
+<h2 align="center"> <img  src="https://github.com/AFCoiro/arteDigitalAplicado/assets/95722600/cf565ab8-48fc-4af1-bba9-6990a7bf234c"></h2>
 
 # 📝 Descripción del proyecto: 
 
